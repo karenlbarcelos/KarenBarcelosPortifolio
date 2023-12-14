@@ -1,5 +1,5 @@
 # Programming Delights
-I've created this repository to display my knowledge while I'm diving into full-stack course in Codecademy website. I'm gonna share the process and I hope you guys could see my dedication.
+I've created this repository to showcase my knowledge as I dive into a full-stack course on the Codecademy website. I'll be sharing the process, and I hope you all can see my dedication.
 
 ## Goals
-I decided to united two of some passions that I have. Cooking and code. I love cooking for whose I love and now I'm learning more about front-end, why not share with you by a web page? 
+I've decided to unite two of my passions: cooking and coding. I love cooking for those I care about, and now as I'm learning more about front-end development, why not share it with you through a webpage?
