@@ -1,4 +1,4 @@
-# Programming Delights
+## Programming Delights
 I've created this repository to showcase my knowledge as I dive into a full-stack course on the Codecademy website. I'll be sharing the process, and I hope you all can see my dedication.
 
 ## Goals
