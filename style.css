@@ -4,15 +4,29 @@
 
 body {
     background-color: rgba(245, 245, 220, 0.527);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+        'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0 auto;
     padding: 0;
+}
+
+header{
+    margin: 250px;
+    border: 159px;
+    padding: 91px;
 }
 
 img.profile-img {
     height: 365px;
     width: 700px;
     padding-top: 5px 5px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+        'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h3 {
@@ -22,8 +36,10 @@ h3 {
 
 nav span {
     display: grid;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+        'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
+    margin: 10px 0;
 }
 
 nav a {
@@ -33,7 +49,13 @@ nav a {
 .header {
     background-color: rgba(223, 204, 179, 0.753);
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+        'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fav-recipe li {
+    margin: 0 auto;
+    width: 150px;
 }
 
 .about-me {
@@ -48,10 +70,12 @@ nav a {
 }
 
 .title {
+    margin: 15px auto;
     font-weight: bold;
     text-align: center;
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+        'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .pull-quote {
@@ -65,8 +89,9 @@ nav a {
     border-radius: 3px;
     color: rgb(223, 204, 179);
     font-weight: bold;
+    font-size: 15px;
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 450px;
     padding: 14px;
     text-decoration: none;
 }
@@ -75,11 +100,6 @@ nav a {
     background: rgba(158, 145, 127, 0.747);
     border: 1px solid black;
     color: black;
-}
-
-.fav-recipe li {
-    margin: 0 auto;
-    width: 150px;
 }
 
 .motivation {
@@ -98,8 +118,8 @@ nav a {
     font-size: 28px;
     padding: 5px;
     margin-bottom: 5px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #main {
