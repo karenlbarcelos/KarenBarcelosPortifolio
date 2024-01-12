@@ -9,10 +9,6 @@ body {
     margin: 0 auto;
 }
 
-.profile {
-    width: 1345px;
-}
-
 h2 {
     font-size: 22px;
     margin: 0 auto;
@@ -21,7 +17,7 @@ h2 {
 }
 
 
-a{
+a {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
         'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17.6px;
@@ -35,6 +31,7 @@ a{
 header {
     background-color: rgba(223, 204, 179, 0.753);
     max-width: 1350px;
+    height: 483px;
     margin: 0 auto;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -48,30 +45,53 @@ header {
     font-size: 22.3px;
 }
 
-.fav-recipe li {
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-.center h3 {
-    margin: 150px auto;
-    text-align: center;
-    padding: 15px 15px;
-    border: 25px;
-    width: 550px;
-    font-size: 18px;
-}
-
 .about-me {
     font-size: 18px;
-    color: purple;
-    opacity: 0.75;
-    padding: 12px 19px;
-    border: 15px;
+    color: rgba(0, 0, 0, 0.89);
     margin: 0 auto;
     text-align: center;
-    width: 554px;
+    width: 514px;
+}
+
+.about-me p {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.about-me h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 514px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.fav-recipes h2,
+.contact h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 514px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.fav-recipes {
+    text-align: center;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.fav-recipes p{
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 618px;
+    height: 450px;
+}
+
+
+.fav-recipes h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -89,6 +109,11 @@ header {
 }
 
 .contact {
+    text-align: center;
+
+}
+
+.contact a{
     background: black;
     border: 1px solid black;
     border-radius: 3px;
@@ -99,12 +124,14 @@ header {
     margin: 0 auto;
     padding: 14px;
     text-decoration: none;
+    text-align: center;
 }
 
-.contact:hover {
+.contact:hover a{
     background: rgba(158, 145, 127, 0.747);
     border: 1px solid black;
     color: black;
+    text-align: center;
 }
 
 .motivation {
@@ -118,20 +145,12 @@ header {
 }
 
 #profile {
-    color: blue;
-    font-weight: bold;
-    font-size: 28px;
-    padding: 5px;
-    margin-bottom: 5px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-        'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 1349px;
+    height: 450px;
+    padding: 0 0;
 }
 
 #main {
-    padding: 40px;
     background-color: rgba(223, 204, 179, 0.753);
     text-align: center;
-    width: 800px;
-    height: 1000px;
-    margin: 0 auto;
 }
