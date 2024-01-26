@@ -1,0 +1,18 @@
+header {
+    margin: 0 auto;
+    height: 35px;
+}
+
+.breadcrumb li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.breadcrumb li+li::before {
+    color: whitesmoke;
+    content: ">";
+}
+
+.breadcrumb a {
+    display: inline;
+}
