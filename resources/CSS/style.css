@@ -36,7 +36,7 @@ a:active {
 
 header {
     background-color: rgba(223, 204, 179, 0.753);
-    max-width: 1350px;
+    max-width: 1599px;
     height: 483px;
     margin: 0 auto;
     text-align: center;
@@ -53,6 +53,10 @@ header {
     width: 510px;
     height: 230px;
     font-size: 22.3px;
+}
+
+.breadcrumbs span {
+    display: inline;
 }
 
 .about-me {
@@ -189,6 +193,7 @@ button:hover {
     text-align: center;
     line-height: 10px;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 .botton-contact:hover {
@@ -207,6 +212,27 @@ button:hover {
     padding: 20px 30px;
     margin: 30px 20px;
     text-align: center;
+}
+
+.footer {
+    background-color: rgba(223, 204, 179, 0.753);
+    text-align: center;
+    display: grid;
+}
+
+.footer h3 {
+  color: rgb(233, 25, 198);
+  font-family: 'Raleway',sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer span {
+    color: black;
+    font-weight: 500;
 }
 
 #profile {
