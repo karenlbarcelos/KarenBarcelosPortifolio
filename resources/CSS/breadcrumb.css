@@ -9,8 +9,8 @@ header {
 }
 
 .breadcrumb li+li::before {
-    color: whitesmoke;
-    content: ">";
+    color: #8f7e68;
+    content: " > ";
 }
 
 .breadcrumb a {
