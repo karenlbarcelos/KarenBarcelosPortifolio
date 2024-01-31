@@ -10,9 +10,18 @@ header {
 
 .breadcrumb li+li::before {
     color: #8f7e68;
-    content: " > ";
+    content: " | ";
 }
 
 .breadcrumb a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17.6px;
+    letter-spacing: 2px;
+    color: rgb(233, 25, 198);
+    height: 40px;
+    width: 145px;
+    text-decoration: none;
+    font-weight: bold;
     display: inline;
 }
