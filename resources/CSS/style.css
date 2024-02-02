@@ -41,6 +41,8 @@ header {
     text-decoration: none;
     font-weight: bold;
     display: inline;
+    position: relative;
+    top: 3px;
 }
 
 .menu-part a:hover {
