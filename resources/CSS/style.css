@@ -17,7 +17,6 @@ h2 {
 }
 
 header {
-    background-color: #DFC6DB;
     height: 210px;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -41,7 +40,7 @@ header img {
 
 .menu-part li {
     padding-top: 5px;
-    display: inline;
+    display: flex;
 }
 
 .menu-part a {
@@ -49,19 +48,19 @@ header img {
         'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17.6px;
     letter-spacing: 2px;
-    color: #e919c6;
+    color: #B60098;
     text-decoration: none;
     font-weight: bold;
 
 }
 
 .menu-part a:hover {
-    color: #B60098;
+    color: #c963b8;
 }
 
 .menu-part li+li::before {
     color: #5f5240;
-    content: " | ";
+    content: "";
 }
 
 .about-me {
@@ -69,7 +68,7 @@ header img {
     color: rgba(0, 0, 0, 0.89);
     margin: 0 auto;
     text-align: center;
-    width: 514px;
+    width: 552px;
 }
 
 .about-me p {
@@ -184,7 +183,7 @@ button:hover {
     color: rgb(223, 204, 179);
     font-weight: bold;
     font-size: 15px;
-    display: inline-block;
+    display: inline-flex;
     margin: 0 auto;
     padding: 14px;
     text-decoration: none;
@@ -215,7 +214,7 @@ button:hover {
 .footer {
     background-color: #DFC6DB;
     text-align: center;
-    display: grid;
+    display: flex;
 }
 
 .footer h3 {
@@ -224,7 +223,7 @@ button:hover {
   font-size: 15px;
   font-weight: 100;
   letter-spacing: 2px;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
