@@ -1,13 +1,13 @@
-## Design update - 31/12/2024
+## Design update - 13/02/2024
 
 ### Home page
-![Top - Header](image-1.png)
-![Middle](image-2.png)
-![Bottom](image-3.png)
+![TOP - Header](image-6.png)
+![Middle](image-8.png)
+![Bottom](image-9.png)
 
 ### Fav Recipes Page
-![Top](image-4.png)
-![Bottom](image-5.png)
+![Top](image-10.png)
+![Bottom](image-11.png)
 
 ## Programming Delights
 I've created this repository to showcase my knowledge as I dive into a full-stack course on the Codecademy website. I'll be sharing the process, and I hope you all can see my dedication.
