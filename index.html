@@ -8,21 +8,23 @@
 
 <body>
     <!-- Banner section-->
-    <header>
-
+    <header class="container">
         <img src="/images/header2.png">
-        
-        <ul class="menu-part">
-            <li><a href="#menu">HOME</a></li>
-            <li><a href="#about-me">ABOUT ME</a></li>
-            <li><a href="resources/HTML/fav-recipes.html">FAV RECIPES</a></li>
-            <li><a href="#fast-recipes">FAST RECIPES</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
+
+        <div class="container">
+            <ul class="menu-part">
+                <li><a href="#menu">HOME</a></li>
+                <li><a href="#about-me">ABOUT ME</a></li>
+                <li><a href="resources/HTML/fav-recipes.html">FAV RECIPES</a></li>
+                <li><a href="#fast-recipes">FAST RECIPES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
     </header>
 
     <main>
-        <div class="container">
+        <div class="container-main">
             <div id="about-me">
                 <div class="about-me">
                     <h2>About me</h2>
@@ -37,7 +39,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-main">
             <div id="fast-recipes">
                 <div class="fast-recipes">
                     <h2>Fast Recipes</h2>
@@ -59,14 +61,15 @@
                         a
                         roux. Cook for 1-2 minutes, stirring constantly.
                         Gradually whisk in the milk, ensuring there are no lumps. Continue to cook and whisk until the
-                        mixture thickens, usually about 5-7 minutes.</p><br>
+                        mixture thickens, usually about 5-7 minutes.</p>
                 </div>
-            </div>
-            <div class="feedback">
-                <button class="liked">
-                    LOVED
-                </button>
-                <button class="disliked">
+                <div class="feedback">
+                    <button id="liked">
+                        LOVED
+                    </button>
+                </div>
+                <div class="feedback">
+                <button id="disliked">
                     NAH
                 </button>
             </div>
@@ -74,7 +77,7 @@
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container-main">
             <div id="contact">
                 <div class="contact">
                     <h2>Contact</h2>
